@@ -30,4 +30,4 @@ $$
 v_{i,j}^{k+1} = v_{i,j}^{k} - \frac{\Delta t}{\rho} \left( \frac{p_{i,j+1}^k - p_{i,j}^k}{\Delta y} \right) + \Delta t \nu \left( \frac{v_{i+1,j}^k - 2v_{i,j}^k + v_{i-1,j}^k}{\Delta x^2} + \frac{v_{i,j+1}^k - 2v_{i,j}^k + v_{i,j-1}^k}{\Delta y^2} \right) + \Delta t \cdot F_y
 $$
 
-Given that $\nu = \frac{\mu}{\rho}$ for incmpressible flow.
+Given that $\nu = \frac{\mu}{\rho}$ for incompressible flow.
